@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testSuite]">
+  <test thread-count="5" name="FSTTests(failed)">
+    <classes>
+      <class name="filespack.DataProviderExample">
+        <methods>
+          <include name="login" invocation-numbers="1 2 3"/>
+          <include name="setUp"/>
+          <include name="suite1"/>
+        </methods>
+      </class> <!-- filespack.DataProviderExample -->
+    </classes>
+  </test> <!-- FSTTests(failed) -->
+</suite> <!-- Failed suite [testSuite] -->

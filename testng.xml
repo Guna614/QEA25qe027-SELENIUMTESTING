@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="testSuite" parallel="tests">
+	<test name="FSTTests" >
+	
+		<classes>
+			<class name="testNgPractice.Login" />
+		</classes>
+	</test>
+	
+	<test name="SNDTests">
+		<classes>
+			<class name="testNgPractice.LoginTestTwo" />
+		</classes>
+	</test>
+</suite>
